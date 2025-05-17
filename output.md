@@ -1,5 +1,6 @@
 # BaoTang_Homework
 ***Định dạng request:***
+nếu thành công:
 {
     "students": [
         {
@@ -68,4 +69,11 @@
         }
     ],
     "total_students": 2
+}
+
+
+nếu không thành công (trường hợp sai gender):
+{
+    "message": "Gender must be \"male\" or \"female\"",
+    "status": "error"
 }
