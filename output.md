@@ -1,6 +1,6 @@
 # BaoTang_Homework
 ***Định dạng request:***
-nếu thành công:
+
 {
     "students": [
         {
@@ -37,6 +37,7 @@ nếu thành công:
 }
 
 ***Định dạng response:****
+nếu thành công:
 {
     "duplicate_students": [
         {
